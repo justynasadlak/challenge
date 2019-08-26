@@ -1,17 +1,25 @@
-.main-page-content__content {
-  background: #eeeeee;
-  width: 50%;
+.main-page-posts__content {
+  margin: 0 20px 20px 20px;
   display: flex;
   flex-direction: column;
 }
 
-.main-page-content__card {
-  border: 1px solid black;
-  margin-bottom: 2px;
+.main-page-posts__card {
+  background: #e0e0e0;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
 }
-.main-page-content__img {
-  width: 30%;
-  height: 30%;
+
+.main-page-posts__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.main-page-posts__img {
+  width: 20%;
+  height: 20%;
 }
