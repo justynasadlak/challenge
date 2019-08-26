@@ -1,0 +1,17 @@
+.main-page-content__content {
+  background: #eeeeee;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-content__card {
+  border: 1px solid black;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.main-page-content__img {
+  width: 30%;
+  height: 30%;
+}
