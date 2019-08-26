@@ -1,12 +1,11 @@
 .main-page-posts__content {
-  margin: 0 20px 20px 20px;
   display: flex;
   flex-direction: column;
 }
 
 .main-page-posts__card {
   background: #e0e0e0;
-  margin-bottom: 10px;
+  margin: 0 15px 15px 0;
   display: flex;
   flex-direction: row;
 }
@@ -19,6 +18,7 @@
 .main-page-posts__card-content {
   display: flex;
   flex-direction: column;
+  padding: 5px;
 }
 
 .main-page-posts__title {
@@ -26,9 +26,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-weight: bold;
 }
 
 .main-page-posts__more {
+  font-weight: bold;
   align-self: flex-end;
 }
 
