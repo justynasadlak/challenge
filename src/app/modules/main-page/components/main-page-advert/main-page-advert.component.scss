@@ -9,4 +9,8 @@
   background: #ffffff;
   border-top: 4px solid darkblue;
   margin-bottom: 8px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }

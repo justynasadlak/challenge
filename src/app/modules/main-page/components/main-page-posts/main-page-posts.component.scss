@@ -8,6 +8,10 @@
   margin: 0 15px 15px 0;
   display: flex;
   flex-direction: row;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .main-page-posts__img {
