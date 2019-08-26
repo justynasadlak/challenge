@@ -11,15 +11,31 @@
   flex-direction: row;
 }
 
+.main-page-posts__img {
+  width: 20%;
+  height: 20%;
+}
+
+.main-page-posts__card-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-page-posts__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.main-page-posts__img {
-  width: 20%;
-  height: 20%;
+.main-page-posts__more {
+  align-self: flex-end;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+p:first-letter {
+  text-transform: uppercase;
 }
