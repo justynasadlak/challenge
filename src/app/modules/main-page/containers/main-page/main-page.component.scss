@@ -1,13 +1,13 @@
 .main-page__content {
-  width: 100%;
-  min-height: 100vh;
   background: #e0e0e0;
+  padding: 50px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding-top: 2vh;
 }
 
-//app-main-page-posts {
-//
-//}
+.main-page__content-elements {
+  background: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+}
