@@ -11,6 +11,6 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     CommonModule,
     CustomMaterialModule
   ],
-  exports: [CustomMaterialModule]
+  exports: [CustomMaterialModule, ToolbarComponent]
 })
 export class SharedModule { }
