@@ -2,4 +2,8 @@
   background-color: black;
   color: white;
   font-family: Roboto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1vh 20vw;
 }
