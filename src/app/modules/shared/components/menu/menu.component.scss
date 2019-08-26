@@ -4,11 +4,21 @@
   justify-content: center;
   text-transform: uppercase;
   padding: 0 18vw;
-
+  font-size: 15px;
 }
+
 .menu__option {
-  border: 1px solid black;
+  border: 1px solid gray;
   text-align: center;
   flex: 1;
   padding: 1vh;
 }
+
+.menu__option:hover {
+  border-top: 1px solid blue;
+}
+
+i {
+  font-size: 15px;
+}
+
