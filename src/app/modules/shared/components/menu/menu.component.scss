@@ -1,0 +1,9 @@
+.menu__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.menu__option {
+  border: 1px solid black;
+  text-align: center;
+}
